@@ -1,11 +1,13 @@
 {
   "hosting": {
-    "public": "Web Ui",
+
+    "public": "Web Ui/dist",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
+    
     "rewrites": [
       {
         "source": "**",
